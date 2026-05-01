@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EtherVault - NFT Marketplace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "surface-bright": "#faf8ff", "surface": "#faf8ff", "on-surface": "#191b23",
+            "surface-container": "#ededf9", "surface-container-high": "#e7e7f3", "surface-container-lowest": "#ffffff",
+            "outline-variant": "#c3c6d7", "on-surface-variant": "#434655", "outline": "#737686",
+            "primary": "#004ac6", "on-primary": "#ffffff", "primary-fixed-dim": "#b4c5ff",
+            "error": "#ba1a1a", "secondary": "#831ada", "on-secondary": "#ffffff",
+            "secondary-container": "#9e41f5", "on-secondary-container": "#fffbff",
+            "primary-container": "#2563eb", "on-primary-container": "#eeefff",
+          },
+          fontFamily: { "h1": ["Space Grotesk"], "h2": ["Space Grotesk"], "h3": ["Space Grotesk"], "body-md": ["Inter"] },
+          spacing: { "sm": "16px", "md": "24px", "lg": "48px", "xl": "80px", "gutter": "24px", "xs": "8px" }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased min-h-screen">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
