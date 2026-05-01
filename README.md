@@ -89,7 +89,7 @@ Bot (Node.js)
 ### Clone
 
 ```bash
-git clone https://github.com/TenCuaBan/EtherVault-NFT.git
+git clone https://github.com/CAMLC25/EtherVault-NFT.git
 cd EtherVault-NFT
 npm install
 ```
