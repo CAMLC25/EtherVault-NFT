@@ -32,7 +32,7 @@ git clone [https://github.com/TenCuaBan/EtherVault-NFT.git](https://github.com/T
 cd EtherVault-NFT
 npm install
 
-Bước 2: Thiết lập mạng Ganache & Biến môi trường
+### Bước 2: Thiết lập mạng Ganache & Biến môi trường
 Mở Ganache, tạo workspace mới ở port 7545 (hoặc 8545 tùy cấu hình của bạn).
 
 Mở MetaMask, thêm mạng Ganache Local (RPC: http://127.0.0.1:7545, Chain ID: 1337).
